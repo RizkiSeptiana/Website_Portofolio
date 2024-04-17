@@ -1,0 +1,331 @@
+*{
+    padding : 0px;
+    margin : 0px;
+}
+
+
+/* container pembungkus semua (body) */
+.container{
+    position : relative;
+    font-family : verdana;
+    background-color: #CDF5FD ;
+    color :  #344955;
+}
+
+
+
+/* header */
+
+.header{
+    background-color : #00A9FF;
+    position : fixed;
+    width : 100%;
+    text-align : center;
+    line-height : 70px;
+    height : 70px;
+    top : 0px;
+    box-shadow : 0px 4px 7px rgba(0,0,0,.5);
+    color : #CDF5FD;
+    text-shadow: 5px 5px 7px rgba(0,0,0,.7);
+}
+
+
+
+
+/* container utama berisi sidebar kanan dan kiri dan lamaran kerja */
+
+.big-content{
+    margin-top : 70px;
+    display : flex;
+
+}
+
+
+
+
+
+/* sidebar kiri content */
+
+.sidebar-left{
+    margin-top : 10px;
+    /* border : 1px solid black; */
+    width : 14%;
+    box-sizing: border-box;
+    position : fixed;
+    left : 7px;
+}
+.sidebar-kiri{
+    /* border : 1px solid black; */
+    width : 15%;
+    box-sizing: border-box;
+    background-color : #FFF7FC;
+    box-shadow: 5px 5px 5px rgba(0,0,0,.5);
+}
+
+.sidebar-left .menu{
+    background-color : #89CFF3;
+    box-sizing :border-box;
+    margin: 1px 0px 1px 0px;
+    padding : 0px 15px;
+    height : 40px;
+    line-height : 40px;
+    border-radius: 4px;
+    font-size : 15px;
+    color :#FFF7FC;
+}
+
+.sidebar-left .menu:hover{
+    background-color : white;
+    box-sizing :border-box;
+    margin: 1px 0px 1px 0px;
+    padding : 0px 15px;
+    height : 40px;
+    line-height : 40px;
+    border-radius: 4px;
+    color : #00A9FF;
+    border : 1px solid blue;
+}
+.sidebar-left a {
+    text-decoration : none;
+    width : 100%;
+}
+
+
+
+
+/* content utama ditengah bagian beranda*/
+
+.content-tengah{
+    /* border : 1px solid black; */
+    width : 65%;
+    
+}
+.content-tengah{
+    padding : 15px 20px;
+    box-sizing : border-box;
+}
+
+.content-tengah .deskripsi{
+    font-size : 14px;
+    margin : 20px 0px 40px;
+
+}
+.deskripsi-lamaran{
+    background-color:#FFFFFC;
+    padding : 25px;
+    border-radius: 4px;
+}
+.pembukaan-web h1{
+    margin : 10px 0px 5px 0px;
+}
+.judul-lamaran-kerja{
+    margin-bottom: 15px;
+}
+.judul-lampiran-berkas{
+    margin : 40px 0px 15px 0px;
+}
+.berkas div{
+    height : 300px;
+    background-color :coral;
+    margin : 10px;
+    text-align :center;
+    line-height : 300px;
+}
+
+
+
+
+/* sidebar kanan content */
+
+.sidebar-right{
+    /* border : 1px solid black; */
+    width : 20%;
+    background-color : #FFF7FC;
+    box-shadow: -5px -5px 5px rgba(0,0,0,.5);
+}
+
+.bagian1, .bagian2, .bagian3{
+    width : 94%;
+    background-color: #A0E9FF;
+    margin : 10px auto;
+    padding : 5px;
+    box-sizing : border-box;
+    font-size : 12px;
+    border-radius : 5px;
+
+}
+
+.bagian1{
+    text-align : center;
+}
+
+.bagian1 .nama,.bidang, .mahasiswa{
+    margin-bottom: 5px;
+}
+
+.bagian1 .follow, .pesan {
+    width : 78px;
+    height : 32px;
+    background-color : blue;
+    display :inline-block;
+    line-height :32px;
+    text-align : center;
+    border-radius: 4px;
+    margin : 15px 0 10px 0;
+    color :#FFF7FC;
+}
+
+.bagian1 .image{
+    height : 130px;
+    width : 120px;
+    background-image: url(profil.jpg);
+    background-position: center top;
+    background-size : cover;
+    border-radius: 13px;
+    margin : 15px auto;
+
+}
+
+.bagian2 table tr td{
+  width : 20%;
+  height : 30px;   
+  padding : 2px;
+}
+
+.bagian3 table tr td, .bagian3 .sosial-media table a{
+    width : 42%;
+    height : 30px;   
+    padding : 2px;
+    text-decoration: none ; 
+}
+
+
+
+
+/* footer */
+.footer {
+    background-color :#00A9FF;
+    height : 30px;
+    width :100%;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    font-size : 14px;
+    /* text-align :center;
+    line-height : 30px; */
+}
+
+
+
+/* content utama ditengah bagian halaman portofolio*/
+
+.judul-portofolio {
+    font-size : 30px;
+    font-weight: bold;
+    margin : 24px 0px;
+}
+
+.image-portofolio1 {
+    background-image : url(pkn-it.png);
+    width : 250px;
+    height : 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat : no-repeat;
+    margin : 20px 0 20px 0;
+}
+
+.link-portofolio, .deskripsi-portofolio{
+    font-size : 14px;
+    margin : 10px 0 10px 0;
+
+}
+.image-portofolio2 {
+    background-image : url(poster_bamboo_resto.png);
+    width : 400px;
+    height : 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat : no-repeat;
+}
+.image-portofolio3 {
+    background-image : url(mesin_cuci.png);
+    width : 400px;
+    height : 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat : no-repeat;
+}
+
+
+
+/* content utama ditengah bagian kontak*/
+
+.email-kontak, .nomor-kontak {
+    width : 80%;
+    height : 60px;
+    line-height : 60px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.5);
+    padding : 10px;
+    margin : 20px 0px;
+    margin : auto;
+}
+
+
+
+
+
+/* content tengah bagian halaman prestasi  */
+
+.image-prestasi {
+    background-image: url(IT_BOOTCAMP.jpg);
+    height : 359px;
+    width : 500px;
+    background-size : cover;
+    margin : 30px auto;
+    
+}
+
+.judul-prestasi h1 {
+    margin : 20px;
+}
+
+/* content utama ditengah bagian halaman hobi*/
+.image-satu,.image-dua, .image-tiga,.image-empat, .image-bidang-web, .image-bidang-ui{
+    background-image: url(futsal.jpeg);
+    height : 300px;
+    width : 500px;
+    background-size : cover;
+    background-repeat: no-repeat;
+    margin : 20px 0px;
+    box-shadow : 0px 0px 20px rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
+.judul-hobi{
+    margin : 25px 0px;
+    color : #344955;
+}
+
+.image-dua{
+    background-image: url(badminton.jpeg);
+}
+.image-tiga{
+    background-image: url(neflix.jpeg);
+}
+.image-empat{
+    background-image: url(tiktok.jpeg);
+}
+
+
+/* content utama ditengah bagian halaman bidang yang diminati*/
+.image-bidang-web, .image-bidang-ui{
+    background-image : url(web.jpeg);
+    margin : 35px auto;
+    
+}
+
+.image-bidang-ui{
+    background-image : url(UI.jpeg);
+}
